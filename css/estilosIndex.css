@@ -25,18 +25,25 @@
 /* Cookies */
 #cookies {
   width: 90%;
-  height: 5rem;
-  margin: auto;
+  height: 10rem;
+  position: fixed;
+  top: 50%;
+  margin-left: 2rem;
+  padding: 1.5rem;
   background-color: #efd96f;
-  text-align: end;
   border-radius: 10px;
-  display: flex;
+  text-align: center;
 }
 
 #cookies > p {
   background-color: transparent;
   color: black;
-  text-align: center;
+}
+
+#cookies > button {
+  height: 4rem;
+  width: 8rem;
+  font-size: large;
 }
 
 /*************************
@@ -146,15 +153,6 @@
     margin: auto;
   }
 
-  /*
-  main > h1 {
-    text-align: start;
-    width: 90%;
-    margin: auto;
-    font-size: 5rem;
-  }
-  */
-
   #Maintext > p {
     width: 49%;
     font-size: 1.2rem;
@@ -172,6 +170,13 @@
     height: 100%;
     position: absoulte;
     margin: auto;
+  }
+
+  #cookies {
+    top: 82%;
+    margin-left: 0;
+    width: 100%;
+    /* bottom: 0; */
   }
 }
 

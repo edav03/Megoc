@@ -53,6 +53,7 @@ header > img {
   width: 4rem;
   rotate: 90deg;
   transition: rotate 0.2s;
+  opacity: 0.5;
 }
 
 #lenguaje {
