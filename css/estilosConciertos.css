@@ -11,13 +11,8 @@
   overflow: scroll;
 }
 
-header {
-  /* border: 1px solid yellow; */
-}
-
 main > h1 {
   font-size: 3rem;
-  /* border: 1px solid red; */
 }
 
 main {

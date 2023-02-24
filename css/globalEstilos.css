@@ -146,12 +146,7 @@ footer img:nth-child(1) {
     display: inline;
     width: 5rem;
     height: 5rem;
-  }
-
-  #lenguaje > img {
-    width: 40%;
-    height: 80%;
-    display: inline-block;
+    border: none;
   }
 
   #barra {
